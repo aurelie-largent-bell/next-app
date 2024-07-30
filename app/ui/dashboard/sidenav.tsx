@@ -7,7 +7,6 @@ import { signOut } from '@/auth';
 export default function SideNav() {
   async function signout() {
     'use server';
-    console.log('hello');
     await signOut();
   }
   return (
