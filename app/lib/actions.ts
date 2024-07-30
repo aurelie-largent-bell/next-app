@@ -28,7 +28,7 @@ export type State = {
     statusamount?: string[];
     status?: string[];
   };
-  message?: string | null;
+  message: string;
 };
 
 export async function createInvoice(prevState: State, formData: FormData) {
